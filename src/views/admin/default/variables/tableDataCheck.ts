@@ -1,4 +1,4 @@
-type RowObj = {
+export type RowObj = {
 	name: [string, boolean];
 	progress: string;
 	quantity: number;

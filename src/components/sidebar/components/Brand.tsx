@@ -1,8 +1,5 @@
 // Chakra imports
-import { Flex, useColorModeValue } from '@chakra-ui/react';
-
-// Custom components
-import { HorizonLogo } from 'components/icons/Icons';
+import { Flex, useColorModeValue, Text } from '@chakra-ui/react';
 import { HSeparator } from 'components/separator/Separator';
 
 export function SidebarBrand() {
@@ -11,8 +8,8 @@ export function SidebarBrand() {
 
 	return (
 		<Flex alignItems='center' flexDirection='column'>
-			<HorizonLogo h='26px' w='175px' my='32px' color={logoColor} />
-			<HSeparator mb='20px' />
+			<Text size={'h2'}>Registros</Text>
+			<HSeparator mt={'20px'}  mb='20px' />
 		</Flex>
 	);
 }

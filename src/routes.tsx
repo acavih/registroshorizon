@@ -18,7 +18,15 @@ import {
 // import SignInCentered from './pages/auth/sign-in';
 import { IRoute } from 'types/navigation';
 
-const routes: IRoute[] = [
+const routes : IRoute[] = [
+  {name: 'Socios', layout: '/admin', path: '/private/partners', icon: <Icon as={MdHome} width="20px" height="20px" color="inherit" />},
+  {name: 'Últimas atenciones', layout: '/admin', path: '/private/attentions', icon: <Icon as={MdHome} width="20px" height="20px" color="inherit" />},
+  {name: 'Tipos de recursos', layout: '/admin', path: '/private/resourceTypes', icon: <Icon as={MdHome} width="20px" height="20px" color="inherit" />},
+  {name: 'Recursos', layout: '/admin', path: '/private/resources', icon: <Icon as={MdHome} width="20px" height="20px" color="inherit" />},
+  {name: 'Estadísticas', layout: '/admin', path: '/private/stats', icon: <Icon as={MdHome} width="20px" height="20px" color="inherit" />},
+]
+
+const routes_: IRoute[] = [
   {
     name: 'Main Dashboard',
     layout: '/admin',
